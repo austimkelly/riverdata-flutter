@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 
-void main() => runApp(App08Main());
+void main() => runApp(RiverDataHome());
 
-class App08Main extends StatelessWidget {
+class RiverDataHome extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     for (var i = 0; i < 25; i++) {}
@@ -16,8 +16,7 @@ var movies = List<Movie>.empty(
   growable: true,
 );
 
-// Don't forget to show them how to get movie info from db
-// Also, why you don't want the main page to block
+
 
 class Movie {
   int index = 0;
